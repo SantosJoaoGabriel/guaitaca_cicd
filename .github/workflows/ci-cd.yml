@@ -9,7 +9,7 @@ on:
 
 # Permissões necessarias para publicar no Github Pages
 
-permissons:
+permissions:
   contents: read
   pages: write
   id-token: write
