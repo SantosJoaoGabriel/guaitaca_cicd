@@ -17,7 +17,7 @@ permissions:
 jobs:
   # JOB 1: - CI - Integração Continua (Testes)
   ci:
-    name: CI - Testes e Validação
+    name: CI - Testes e Validações
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do código
