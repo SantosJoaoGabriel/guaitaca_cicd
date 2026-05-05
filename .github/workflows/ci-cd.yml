@@ -36,7 +36,7 @@ jobs:
 
 # JOB 2: - CD: Entrega Continua (Deploy)
   cd:
-    name: CD - Deploy no Github Pages
+    name: CD - Deploy no Github Page
     needs: ci
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
